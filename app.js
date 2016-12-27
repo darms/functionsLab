@@ -108,6 +108,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
 
+var finalMessage =
+return[ productOfArray, finalMessage];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
