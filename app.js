@@ -84,11 +84,11 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4];
 function sumArray(testArray){ //eslint-disable-line
 
-var firstOne = sum(testArray[0],testArray[1])[0];
-var sumOfArray = sum(firstOne,testArray[2])[0];
-var messageSumArray = testArray[0] +','+ testArray[1] +',' + testArray[2]  + ' was passed in as an array of numbers, and ' + sumOfArray + ' is their sum.';
+  var firstOne = sum(testArray[0],testArray[1])[0];
+  var sumOfArray = sum(firstOne,testArray[2])[0];
+  var messageSumArray = testArray[0] +','+ testArray[1] +',' + testArray[2]  + ' was passed in as an array of numbers, and ' + sumOfArray + ' is their sum.';
 // console.log(messageSumArray);
-return[sumOfArray, messageSumArray];
+  return[sumOfArray, messageSumArray];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -109,12 +109,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-var testArray = [2,3,4];
-var partOne = multiply(testArray[0], testArray[1])[0];
-var partTwo = testArray[2];
-var productOfArray = multiply(partOne,partTwo)[0];
-var finalMessage = 'The numbers ' + testArray[0] +',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + productOfArray +'.';
-return[productOfArray, finalMessage];
+  var testArray = [2,3,4];
+  var partOne = multiply(testArray[0], testArray[1])[0];
+  var partTwo = testArray[2];
+  var productOfArray = multiply(partOne,partTwo)[0];
+  var finalMessage = 'The numbers ' + testArray[0] +',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + productOfArray +'.';
+  return[productOfArray, finalMessage];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
